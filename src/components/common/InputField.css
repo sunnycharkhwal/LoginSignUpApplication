@@ -1,0 +1,53 @@
+.input-group {
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.input-group .error-message {
+  color: #dc3545;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.input-group .error-border {
+  border-color: #dc3545;
+}
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-wrapper input {
+  width: 100%;
+}
+.input-icon {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  color: #888;
+  font-size: 1.2rem;
+}
+.input-icon:hover {
+  color: #333;
+}
